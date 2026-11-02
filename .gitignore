@@ -1,0 +1,17 @@
+# Ren'Py 编译产物与运行时目录（由引擎自动生成，不入库）
+*.rpyc
+*.rpyb
+game/cache/
+game/saves/
+game/log.txt
+game/errors.txt
+game/traceback.txt
+
+# 本地备份与临时文件
+*.bak
+*.bak2
+_*.txt
+_*.json
+
+# 打包产物（发布时作为 Release 附件，不提交到仓库）
+*.zip
